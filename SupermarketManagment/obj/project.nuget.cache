@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q97jIrGYIYIvir4xP+X4VdWun5cSJRwsGwnmwLsYTWToXLdtApK8jD/lkk+zqDNXCps+ITnym33lWE87Up6C8A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rzyen\\source\\repos\\SupermarketManagment\\SupermarketManagment\\SupermarketManagment.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rzyen\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\rzyen\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\rzyen\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\rzyen\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}
