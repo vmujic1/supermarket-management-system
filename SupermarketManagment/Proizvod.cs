@@ -1,3 +1,4 @@
-﻿class Proizvod {
+﻿public class Proizvod {
+
 }
 
