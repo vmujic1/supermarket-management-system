@@ -1,0 +1,15 @@
+C:\Users\rzyen\source\repos\SupermarketManagment\SupermarketManagment\bin\Debug\net6.0\SupermarketManagment.exe
+C:\Users\rzyen\source\repos\SupermarketManagment\SupermarketManagment\bin\Debug\net6.0\SupermarketManagment.deps.json
+C:\Users\rzyen\source\repos\SupermarketManagment\SupermarketManagment\bin\Debug\net6.0\SupermarketManagment.runtimeconfig.json
+C:\Users\rzyen\source\repos\SupermarketManagment\SupermarketManagment\bin\Debug\net6.0\SupermarketManagment.dll
+C:\Users\rzyen\source\repos\SupermarketManagment\SupermarketManagment\bin\Debug\net6.0\SupermarketManagment.pdb
+C:\Users\rzyen\source\repos\SupermarketManagment\SupermarketManagment\obj\Debug\net6.0\SupermarketManagment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rzyen\source\repos\SupermarketManagment\SupermarketManagment\obj\Debug\net6.0\SupermarketManagment.AssemblyInfoInputs.cache
+C:\Users\rzyen\source\repos\SupermarketManagment\SupermarketManagment\obj\Debug\net6.0\SupermarketManagment.AssemblyInfo.cs
+C:\Users\rzyen\source\repos\SupermarketManagment\SupermarketManagment\obj\Debug\net6.0\SupermarketManagment.csproj.CoreCompileInputs.cache
+C:\Users\rzyen\source\repos\SupermarketManagment\SupermarketManagment\obj\Debug\net6.0\SupermarketManagment.sourcelink.json
+C:\Users\rzyen\source\repos\SupermarketManagment\SupermarketManagment\obj\Debug\net6.0\SupermarketManagment.dll
+C:\Users\rzyen\source\repos\SupermarketManagment\SupermarketManagment\obj\Debug\net6.0\refint\SupermarketManagment.dll
+C:\Users\rzyen\source\repos\SupermarketManagment\SupermarketManagment\obj\Debug\net6.0\SupermarketManagment.pdb
+C:\Users\rzyen\source\repos\SupermarketManagment\SupermarketManagment\obj\Debug\net6.0\SupermarketManagment.genruntimeconfig.cache
+C:\Users\rzyen\source\repos\SupermarketManagment\SupermarketManagment\obj\Debug\net6.0\ref\SupermarketManagment.dll
