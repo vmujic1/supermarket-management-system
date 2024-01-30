@@ -1,5 +1,7 @@
-﻿public class Uposlenik
+﻿public class Uposlenik : Osoba
 {
+
+    
 
 }
 

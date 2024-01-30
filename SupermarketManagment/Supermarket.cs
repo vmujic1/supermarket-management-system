@@ -12,7 +12,7 @@ namespace SupermarketManagment
         private string lokacija;
         private Asortiman asortiman;
 
-        public string Ime { get => ime; set => ime = value; }
+        public string Ime { get =>  ime; set => ime = value; }
         public string Lokacija { get => lokacija; set => lokacija = value; }
         public Asortiman Asortiman { get => asortiman; set => asortiman = value; }
 

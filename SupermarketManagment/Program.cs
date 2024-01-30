@@ -10,6 +10,10 @@ class Program
         supermarket.Lokacija = "Stup";
        
 
+        var uposlenik = new Uposlenik();
+
+        uposlenik.talk();
+
         Console.WriteLine(supermarket.Ime + ' '+ supermarket.Lokacija);
     }
 }
