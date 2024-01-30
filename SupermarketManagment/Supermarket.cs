@@ -18,6 +18,7 @@ namespace SupermarketManagment
         {
             this.Ime = ime;
             this.Lokacija = lokacija;
+            
         }
 
     }
