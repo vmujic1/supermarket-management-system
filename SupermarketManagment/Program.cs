@@ -36,8 +36,9 @@ class Program
 
 
 
+        Autentifikacija autentifikacija = new Autentifikacija();
 
-        bool uspjesnaPrijava = ProvjeraPrijave(apsolutnaPutanja, username, password);
+        bool uspjesnaPrijava = autentifikacija.ProvjeraPrijave(apsolutnaPutanja, username, password);
 
         if (uspjesnaPrijava)
         {
