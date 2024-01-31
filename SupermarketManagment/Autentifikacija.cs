@@ -18,7 +18,11 @@ namespace SupermarketManagment
             var user = xdoc.Descendants(element)
                            .FirstOrDefault(u => (string)u.Element("username") == username && (string)u.Element("password") == password);
 
-            return user != null;
+            if (user != null)
+            {
+                return true;
+            }
+            return false;
         }
     }
 }

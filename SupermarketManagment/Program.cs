@@ -42,11 +42,11 @@ class Program
 
         if (uspjesnaPrijava)
         {
-            Console.WriteLine("Uspešno ste se prijavili!");
+            Console.WriteLine("Uspješno ste se prijavili!");
         }
         else
         {
-            Console.WriteLine("Prijavljivanje nije uspelo. Proverite korisničko ime i lozinku.");
+            Console.WriteLine("Prijavljivanje nije uspjelo. Provjerite korisničko ime i lozinku.");
         }
 
 
