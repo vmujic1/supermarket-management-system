@@ -34,8 +34,22 @@ class Program
         Console.Write("Unesite lozinku: ");
         string password = Console.ReadLine();
 
+        
+        Registracija registracija = new Registracija();
 
+        bool uspjesnaRegistracija = registracija.RegistrujKorisnika(apsolutnaPutanja, username, password);
 
+        if (uspjesnaRegistracija)
+        {
+            Console.WriteLine("Uspjesno ste registrovani!");
+        }
+        else
+        {
+            Console.WriteLine("Registracija nije uspjela. U bazi već postoji korisnik sa tim usernameom");
+        }
+        
+
+        /*
         Autentifikacija autentifikacija = new Autentifikacija();
 
         bool uspjesnaPrijava = autentifikacija.ProvjeraPrijave(apsolutnaPutanja, username, password);
@@ -48,6 +62,8 @@ class Program
         {
             Console.WriteLine("Prijavljivanje nije uspjelo. Provjerite korisničko ime i lozinku.");
         }
+        
+        */
 
 
         static bool ProvjeraPrijave(string xmlFilePath, string username, string password)
