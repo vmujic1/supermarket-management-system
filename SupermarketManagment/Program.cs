@@ -34,10 +34,27 @@ class Program
         Console.Write("Unesite lozinku: ");
         string password = Console.ReadLine();
 
+<<<<<<< HEAD
         
         Registracija registracija = new Registracija();
 
         bool uspjesnaRegistracija = registracija.RegistrujKorisnika(apsolutnaPutanja, username, password);
+=======
+        /*
+        Registracija registracija = new Registracija();
+
+        bool uspjesnaRegistracija = registracija.RegistrujKorisnika(apsolutnaPutanja, username, password);
+
+        if (uspjesnaRegistracija)
+        {
+            Console.WriteLine("Uspjesno ste registrovani!");
+        }
+        else
+        {
+            Console.WriteLine("Registracija nije uspjela. U bazi već postoji korisnik sa tim usernameom");
+        }
+        */
+>>>>>>> c43650a039bda1489678515e96b27ab3d7c4f87b
 
         if (uspjesnaRegistracija)
         {
@@ -63,7 +80,10 @@ class Program
             Console.WriteLine("Prijavljivanje nije uspjelo. Provjerite korisničko ime i lozinku.");
         }
         
+<<<<<<< HEAD
         */
+=======
+>>>>>>> c43650a039bda1489678515e96b27ab3d7c4f87b
 
 
         static bool ProvjeraPrijave(string xmlFilePath, string username, string password)
