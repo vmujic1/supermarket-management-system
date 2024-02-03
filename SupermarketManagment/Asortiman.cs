@@ -1,13 +1,23 @@
 ﻿public class Asortiman
 {
-    private List<Proizvod> proizvodi;
-
-    public List<Proizvod> Proizvodi { get => proizvodi; set => proizvodi = value; }
+    public List<Proizvod> ListaProizvoda { get; set; }
 
     public Asortiman()
     {
-        this.proizvodi = new List<Proizvod>();
+        this.ListaProizvoda = new List<Proizvod>();
     }
+
+    public void UkloniProizvod(Proizvod proizvod)
+    {
+        ListaProizvoda.Remove(proizvod);
+    }
+
+    public void DodajProizvod(Proizvod proizvod)
+    {
+        ListaProizvoda.Add(proizvod);
+
+    }
+
 
 }
 

@@ -8,16 +8,16 @@ class Program
     static void Main(string[] args)
     {
         var supermarket = new Supermarket();
-        supermarket.Ime = "Amko";
+        supermarket.Naziv = "Amko";
         supermarket.Lokacija = "Stup";
-       
-
-        var uposlenik = new Uposlenik();
-
-        uposlenik.talk();
 
 
-        Console.WriteLine(supermarket.Ime + ' '+ supermarket.Lokacija);
+        var uposlenik = new Uposlenik("Vedran", "Mujic", "0703001181948", "111", "061152228", "Sedmi bataljon", "Sef", 2000);
+        Console.WriteLine(uposlenik.Plata);
+        uposlenik.Plata= 3000;
+        Console.WriteLine(uposlenik.Plata);
+
+        Console.WriteLine(supermarket.Naziv + ' '+ supermarket.Lokacija);
 
 
 

@@ -8,26 +8,25 @@ namespace SupermarketManagment
 {
     public class Supermarket
     {
-        private string _ime;
-        private string _lokacija;
-        private Asortiman _asortiman;
-        private List<Uposlenik> _uposlenici = new List<Uposlenik>();
-
-        public string Ime { get =>  _ime; set => _ime = value; }
-        public string Lokacija { get => _lokacija; set => _lokacija = value; }
-        public Asortiman Asortiman { get => _asortiman; set => _asortiman = value; }
-        public List<Uposlenik> Uposlenici { get => _uposlenici; set => _uposlenici = value; }
+        public int Id { get; set; }
+        public string Naziv { get; set; }
+        public string Lokacija { get; set; }
+        public List<Uposlenik> Uposlenici { get; set; }
+        public Asortiman Asortiman { get; set; }
 
         public Supermarket()
         {
             
         }
-        public Supermarket(string ime, string lokacija)
+
+        public Supermarket(int id, string naziv, string lokacija)
         {
-            this.Ime = ime;
+            this.Id = id;
+            this.Naziv = naziv;
             this.Lokacija = lokacija;
             
         }
+
 
         public void dodajUposlenika(Uposlenik uposlenik)
         {
