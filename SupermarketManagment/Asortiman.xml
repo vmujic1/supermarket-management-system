@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Asortiman>
+  <Proizvod>
+    <Naziv>Eva tuna</Naziv>
+    <Cijena>3</Cijena>
+    <Zalihe>90</Zalihe>
+  </Proizvod>
+</Asortiman>
