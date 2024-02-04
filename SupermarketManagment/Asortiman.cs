@@ -45,7 +45,6 @@ public class Asortiman
                 new XElement("Naziv", proizvod.Naziv),
                 new XElement("Cijena", proizvod.Cijena),
                 new XElement("Zalihe", proizvod.Zalihe)));
-        Console.WriteLine(asortimanXml);
 
 
         asortimanXml.Save(apsolutnaPutanja);

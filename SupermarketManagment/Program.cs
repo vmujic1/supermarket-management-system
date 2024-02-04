@@ -14,8 +14,7 @@ class Program
         Asortiman asortiman = new Asortiman();
 
 
-        asortiman.UkloniProizvod("Argeta pasteta");
-        asortiman.UkloniProizvod("Milka cokolada");
+       
 
 
 

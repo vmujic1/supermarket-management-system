@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Asortiman>
+  <Proizvod>
+    <Naziv>Argeta pasteta</Naziv>
+    <Cijena>2</Cijena>
+    <Zalihe>20</Zalihe>
+  </Proizvod>
+ 
+</Asortiman>
