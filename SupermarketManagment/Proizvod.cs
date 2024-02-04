@@ -1,8 +1,6 @@
 ﻿using System.Xml.Linq;
-
-
-
-public class Proizvod {
+public class Proizvod
+{
 
 
     public string Naziv { get; set; }
@@ -16,7 +14,7 @@ public class Proizvod {
     }
 
     public Proizvod(string naziv, double cijena, int zalihe)
-     {
+    {
         this.Naziv = naziv;
         this.Cijena = cijena;
         this.Zalihe = zalihe;
