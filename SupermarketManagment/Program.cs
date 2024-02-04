@@ -27,8 +27,8 @@ class Program
         string apsolutnaPutanja = Path.GetFullPath(relativnaPutanja);
 
 
-        var uposlenik = new Uposlenik("Vedran", "Mujic", "2", "2", "2", "2", "sef", 2000, 2001, "123");
-        supermarket.dodajUposlenika(uposlenik, apsolutnaPutanja);
+       // var uposlenik = new Uposlenik("admin", "Mujic", "2", "2", "2", "2", "sef", 2000, 2001, "admin123");
+       // supermarket.dodajUposlenika(uposlenik, apsolutnaPutanja);
 
         var uposlenici = supermarket.GetAllUposlenici(apsolutnaPutanja);
 

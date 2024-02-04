@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <users>
+
+  
   <user>
     <username>Vedran</username>
     <prezime>Mujic</prezime>
@@ -11,5 +13,17 @@
     <pozicija>sef</pozicija>
     <plata>2000</plata>
     <password>123</password>
+  </user>
+  <user>
+    <username>admin</username>
+    <prezime>Mujic</prezime>
+    <JMBG>2</JMBG>
+    <brojLicneKarte>2</brojLicneKarte>
+    <brojTelefona>2</brojTelefona>
+    <godinaRodjenja>2001</godinaRodjenja>
+    <adresa>2</adresa>
+    <pozicija>sef</pozicija>
+    <plata>2000</plata>
+    <password>admin123</password>
   </user>
 </users>
