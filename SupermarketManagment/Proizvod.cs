@@ -1,11 +1,9 @@
 ﻿using System.Xml.Linq;
 
-<<<<<<< HEAD
-public class Proizvod
-{
-=======
+
+
 public class Proizvod {
->>>>>>> be35143baa8dffe6accaccc6b7ced726121256cf
+
 
     public string Naziv { get; set; }
     public double Cijena { get; set; }
@@ -13,18 +11,12 @@ public class Proizvod {
 
     public Proizvod()
     {
-<<<<<<< HEAD
+
 
     }
 
     public Proizvod(string naziv, double cijena, int zalihe)
-=======
-        
-    }
-
-    public Proizvod(string naziv, int cijena, int zalihe)
->>>>>>> be35143baa8dffe6accaccc6b7ced726121256cf
-    {
+     {
         this.Naziv = naziv;
         this.Cijena = cijena;
         this.Zalihe = zalihe;
@@ -101,10 +93,9 @@ public class Proizvod {
         }
     }
 
-<<<<<<< HEAD
-=======
+
+
 
 }
->>>>>>> be35143baa8dffe6accaccc6b7ced726121256cf
 
-}
+

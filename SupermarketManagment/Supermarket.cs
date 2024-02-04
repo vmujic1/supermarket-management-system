@@ -31,13 +31,10 @@ namespace SupermarketManagment
 
         public void dodajUposlenika(Uposlenik uposlenik, string putanja)
         {
-            // Učitajte postojeći XML fajl
             XDocument xmlDocument = XDocument.Load(putanja);
 
-            // Dohvatite element "users"
             XElement usersElement = xmlDocument.Root;
 
-            // Kreirajte novi element "user" za novog uposlenika
             XElement noviUposlenikElement = new XElement("user",
                 new XElement("username", uposlenik.Ime),
                 new XElement("prezime", uposlenik.Prezime),
@@ -50,13 +47,10 @@ namespace SupermarketManagment
                 new XElement("plata", uposlenik.Plata),
                 new XElement("password", uposlenik.Lozinka)
                 
-            // Dodajte ostale podatke o uposleniku po potrebi
             ); 
 
-            // Dodajte novog uposlenika u element "users"
             usersElement.Add(noviUposlenikElement);
 
-            // Sačuvajte promene u XML fajlu
             xmlDocument.Save(putanja);
         }
     
@@ -65,16 +59,12 @@ namespace SupermarketManagment
         {
             XDocument xmlDocument = XDocument.Load(putanja);
 
-            // Dohvatite element "users"
             XElement usersElement = xmlDocument.Root;
 
-            // Dohvatite sve elemente "user" iz "users"
             IEnumerable<XElement> userElements = usersElement.Elements("user");
 
-            // Kreirajte listu uposlenika
             List<Uposlenik> uposlenici = new List<Uposlenik>();
 
-            // Iterirajte kroz sve elemente "user" i dodajte uposlenike u listu
             foreach (XElement userElement in userElements)
             {
                 Uposlenik uposlenik = new Uposlenik

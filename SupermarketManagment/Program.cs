@@ -5,30 +5,7 @@ class Program
 {
     static void Main(string[] args)
     {
-<<<<<<< HEAD
-=======
-        var supermarket = new Supermarket();
-        supermarket.Naziv = "Amko";
-        supermarket.Lokacija = "Stup";
 
-        Asortiman asortiman = new Asortiman();
-
-        Proizvod p = new Proizvod();
-
-        p.AzurirajKolicinuNaZalihama("Argeta pasteta", 18);
-        p.AzurirajCijenu("Argeta pasteta", 2.5);
-       
-        
-
-
-
-
-
-
-
-
-
->>>>>>> be35143baa8dffe6accaccc6b7ced726121256cf
         string direktoriji = Directory.GetCurrentDirectory();
         string direktorijiBezDodatnihFoldera = Path.Combine(direktoriji, "..", "..", "..");
 
@@ -113,10 +90,10 @@ class Program
                             Transakcija novaTransakcija = new Transakcija
                             {
                                 Vrijeme = DateTime.Now,
-                                Kupac = new Kupac("Ime", "Prezime", "1234567890123", "123", "123456789", "Adresa", 1990), 
+                                Kupac = new Kupac("Ime", "Prezime", "1234567890123", "123", "123456789", "Adresa", 1990),
                                 Iznos = odabraniProizvod.Cijena * kolicina,
                                 KupljeniProizvodi = new List<Proizvod> { odabraniProizvod },
-                                Prodavac = new Uposlenik("ImeUposlenika", "PrezimeUposlenika", "1234567890123", "123", "123456789", "AdresaUposlenika", "Pozicija", 2000, 1995, "Lozinka") 
+                                Prodavac = new Uposlenik("ImeUposlenika", "PrezimeUposlenika", "1234567890123", "123", "123456789", "AdresaUposlenika", "Pozicija", 2000, 1995, "Lozinka")
                             };
 
                             odabraniProizvod.AzurirajKolicinuNaZalihama(odabraniProizvod.Naziv, odabraniProizvod.Zalihe - kolicina);
@@ -245,6 +222,7 @@ class Program
             }
         }
     }
+
 
     private static void PrikaziAsortiman()
     {
