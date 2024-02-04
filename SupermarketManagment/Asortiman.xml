@@ -2,8 +2,17 @@
 <Asortiman>
   <Proizvod>
     <Naziv>Argeta pasteta</Naziv>
-    <Cijena>2</Cijena>
-    <Zalihe>20</Zalihe>
+    <Cijena>5</Cijena>
+    <Zalihe>18</Zalihe>
   </Proizvod>
- 
+  <Proizvod>
+    <Naziv>Fanta sok</Naziv>
+    <Cijena>2.3</Cijena>
+    <Zalihe>8</Zalihe>
+  </Proizvod>
+  <Proizvod>
+    <Naziv>Milka cokolada</Naziv>
+    <Cijena>2.3</Cijena>
+    <Zalihe>70</Zalihe>
+  </Proizvod>
 </Asortiman>

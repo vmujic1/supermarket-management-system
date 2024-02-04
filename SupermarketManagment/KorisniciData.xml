@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<users>
+  <user>
+    <username>vmujic1</username>
+    <password>vmujic1</password>
+    <ime>Vedran</ime>
+    <prezime>Mujic</prezime>
+    <jmbg>11</jmbg>
+    <brojLicneKarte>11</brojLicneKarte>
+    <brojTelefona>111</brojTelefona>
+    <adresa>11</adresa>
+    <godinaRodjenja>2001</godinaRodjenja>
+  </user>
+</users>

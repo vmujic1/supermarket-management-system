@@ -66,7 +66,7 @@ public class Asortiman
                 select new Proizvod
                 (
                     proizvodXml.Element("Naziv").Value,
-                    int.Parse(proizvodXml.Element("Cijena").Value),
+                    double.Parse(proizvodXml.Element("Cijena").Value),
                     int.Parse(proizvodXml.Element("Zalihe").Value)
                 )).ToList();
 
