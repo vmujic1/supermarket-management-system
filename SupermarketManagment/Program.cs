@@ -13,9 +13,12 @@ class Program
 
         Asortiman asortiman = new Asortiman();
 
+        Proizvod p = new Proizvod();
 
+        p.AzurirajKolicinuNaZalihama("Argeta pasteta", 18);
+        p.AzurirajCijenu("Argeta pasteta", 2.5);
        
-
+        
 
 
 
