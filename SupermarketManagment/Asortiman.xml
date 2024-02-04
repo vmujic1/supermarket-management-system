@@ -2,6 +2,7 @@
 <Asortiman>
   <Proizvod>
     <Naziv>Argeta pasteta</Naziv>
+<<<<<<< HEAD
     <Cijena>5</Cijena>
     <Zalihe>18</Zalihe>
   </Proizvod>
@@ -14,5 +15,9 @@
     <Naziv>Milka cokolada</Naziv>
     <Cijena>2.3</Cijena>
     <Zalihe>70</Zalihe>
+=======
+    <Cijena>2.5</Cijena>
+    <Zalihe>18</Zalihe>
+>>>>>>> be35143baa8dffe6accaccc6b7ced726121256cf
   </Proizvod>
 </Asortiman>

@@ -5,6 +5,30 @@ class Program
 {
     static void Main(string[] args)
     {
+<<<<<<< HEAD
+=======
+        var supermarket = new Supermarket();
+        supermarket.Naziv = "Amko";
+        supermarket.Lokacija = "Stup";
+
+        Asortiman asortiman = new Asortiman();
+
+        Proizvod p = new Proizvod();
+
+        p.AzurirajKolicinuNaZalihama("Argeta pasteta", 18);
+        p.AzurirajCijenu("Argeta pasteta", 2.5);
+       
+        
+
+
+
+
+
+
+
+
+
+>>>>>>> be35143baa8dffe6accaccc6b7ced726121256cf
         string direktoriji = Directory.GetCurrentDirectory();
         string direktorijiBezDodatnihFoldera = Path.Combine(direktoriji, "..", "..", "..");
 
