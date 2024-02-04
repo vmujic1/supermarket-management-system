@@ -28,3 +28,7 @@ Pristupni podaci za uposlenika:
 Pristupni podaci za korisnika(ili kreirati novi račun kroz konzolu):
   username: vmujic1, 
   password: vmujic1
+
+## Dokumentacija
+
+U folderu Dokumenacija se nalazi pdf fajl sa klasnim dijagramom koji pruža bolju uvid u sistem.
