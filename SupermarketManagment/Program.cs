@@ -11,12 +11,18 @@ class Program
         supermarket.Naziv = "Amko";
         supermarket.Lokacija = "Stup";
 
-
-      
-
+        Asortiman asortiman = new Asortiman();
 
 
-        Console.WriteLine(supermarket.Naziv + ' ' + supermarket.Lokacija);
+        asortiman.UkloniProizvod("Argeta pasteta");
+        asortiman.UkloniProizvod("Milka cokolada");
+
+
+
+
+
+
+
 
 
 
@@ -33,10 +39,7 @@ class Program
         var uposlenici = supermarket.GetAllUposlenici(apsolutnaPutanja);
 
 
-        foreach(var u in uposlenici)
-        {
-            Console.WriteLine(u.Ime + " " + u.GodineKupca());
-        }
+      
 
 
 
