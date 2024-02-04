@@ -22,9 +22,9 @@ Prilikom pokretanja aplikacije odmah imamo pristup loginu, pregledu stvarnih pro
 Sve prethodno navedene funkcionalnosti su demonstrirane putem interaktivne komunikacije kroz konzolu.
 
 Pristupni podaci za uposlenika:
-  username: admin
+  username: admin, 
   password: admin123
 
 Pristupni podaci za korisnika(ili kreirati novi račun kroz konzolu):
-  username: vmujic1
+  username: vmujic1, 
   password: vmujic1
