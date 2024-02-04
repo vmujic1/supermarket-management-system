@@ -2,7 +2,7 @@
 
 {
     public int SkupljeniBodovi { get; set; }
-    public Kupac(string ime, string prezime, string jmbg, string brojLicneKarte, string brojTelefona, string adresa) : base(ime, prezime, jmbg, brojLicneKarte, brojTelefona, adresa)
+    public Kupac(string ime, string prezime, string jmbg, string brojLicneKarte, string brojTelefona, string adresa, int godina) : base(ime, prezime, jmbg, brojLicneKarte, brojTelefona, adresa, godina)
     {
         this.SkupljeniBodovi = 0;
     }
@@ -21,7 +21,7 @@
         }
     }
 
-    public void OduzmiBodove(int iskoristeniBodovi)
+    public void IskoristiBodove(int iskoristeniBodovi)
     {
         SkupljeniBodovi -= iskoristeniBodovi;
     }

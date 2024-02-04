@@ -12,12 +12,11 @@ class Program
         supermarket.Lokacija = "Stup";
 
 
-        var uposlenik = new Uposlenik("Vedran", "Mujic", "0703001181948", "111", "061152228", "Sedmi bataljon", "Sef", 2000);
-        Console.WriteLine(uposlenik.Plata);
-        uposlenik.Plata= 3000;
-        Console.WriteLine(uposlenik.Plata);
+      
 
-        Console.WriteLine(supermarket.Naziv + ' '+ supermarket.Lokacija);
+
+
+        Console.WriteLine(supermarket.Naziv + ' ' + supermarket.Lokacija);
 
 
 
@@ -28,6 +27,20 @@ class Program
         string apsolutnaPutanja = Path.GetFullPath(relativnaPutanja);
 
 
+        var uposlenik = new Uposlenik("Vedran", "Mujic", "2", "2", "2", "2", "sef", 2000, 2001, "123");
+        supermarket.dodajUposlenika(uposlenik, apsolutnaPutanja);
+
+        var uposlenici = supermarket.GetAllUposlenici(apsolutnaPutanja);
+
+
+        foreach(var u in uposlenici)
+        {
+            Console.WriteLine(u.Ime + " " + u.GodineKupca());
+        }
+
+
+
+
         Console.Write("Unesite korisničko ime: ");
         string username = Console.ReadLine();
 
@@ -35,34 +48,7 @@ class Program
         string password = Console.ReadLine();
 
 
-        
-        Registracija registracija = new Registracija();
 
-        bool uspjesnaRegistracija = registracija.RegistrujKorisnika(apsolutnaPutanja, username, password);
-
-
-        if (uspjesnaRegistracija)
-        {
-            Console.WriteLine("Uspjesno ste registrovani!");
-        }
-        else
-        {
-            Console.WriteLine("Registracija nije uspjela. U bazi već postoji korisnik sa tim usernameom");
-        }
-        
-
-
-        if (uspjesnaRegistracija)
-        {
-            Console.WriteLine("Uspjesno ste registrovani!");
-        }
-        else
-        {
-            Console.WriteLine("Registracija nije uspjela. U bazi već postoji korisnik sa tim usernameom");
-        }
-        
-
-        /*
         Autentifikacija autentifikacija = new Autentifikacija();
 
         bool uspjesnaPrijava = autentifikacija.ProvjeraPrijave(apsolutnaPutanja, username, password);
@@ -75,9 +61,6 @@ class Program
         {
             Console.WriteLine("Prijavljivanje nije uspjelo. Provjerite korisničko ime i lozinku.");
         }
-        
-
-        */
 
 
 

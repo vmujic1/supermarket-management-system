@@ -15,7 +15,7 @@
     public double ObracunajPopust(int bodovi)
     {
         double popust = Iznos * (bodovi / 100);
-        Kupac.OduzmiBodove(bodovi);
+        Kupac.IskoristiBodove(bodovi);
         return Iznos - popust;
     }
 
